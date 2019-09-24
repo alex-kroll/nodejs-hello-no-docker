@@ -13,8 +13,7 @@ pipeline {
         sh 'npm --version'
       }
     }
-  }
-  stages {
+ 
     stage('build') {
       steps {
         sh 'npm install'
